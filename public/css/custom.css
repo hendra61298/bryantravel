@@ -1,0 +1,129 @@
+html{
+    font-family: Roboto;
+}
+.nav-content{
+    color: black;
+}
+footer {
+    padding: 7em 0; }
+
+.footer-07 {
+    background: #121212;
+
+}
+.footer-07 a {
+    color: orangered; }
+.footer-07 p {
+    color: rgba(255, 255, 255, 0.3); }
+.footer-07 .footer-heading {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 30px; }
+.footer-07 .footer-heading .logo {
+    color: #fff; }
+.footer-07 .menu {
+    margin-bottom: 30px; }
+.footer-07 .menu a {
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
+.footer-07 .ftco-footer-social li a {
+    background: transparent;
+    border: 1px solid #a3de83; }
+.footer-text{
+    font-size: 1.5rem;
+    font-family: Roboto;
+    margin-left: 0.5rem;
+}
+
+.img-carousel{
+    object-fit: cover;
+}
+.float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#0C9;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 999;
+}
+
+.my-float{
+    margin-top:22px;
+}
+
+.nav-content{
+    bottom: 0;
+
+}
+.box-shadow{
+    box-shadow: 0 3px 2px -2px rgba(0, 0, 0, 0.5)!important;
+}
+.fixed {
+    animation: smoothScroll 0.7s forwards;
+
+}
+@keyframes smoothScroll {
+
+    0% {
+        transform: translateY(-50px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+.float-button{
+    width: 13rem;
+    background-color: #25d366;
+    height: 3rem;
+    font-family: Roboto;
+    text-decoration:none;
+    font-size: 1.2rem;
+}
+.text-bryan{
+    font-family: Roboto;
+    font-size: 2rem;
+    color: orangered;
+    font-weight: bold;
+}
+.card-style{
+    border-radius: 10%;
+
+}
+.btn-me {
+    border-radius: 50%;
+    background-color: orangered;
+    width: 50%;
+    height: 50%;
+    pointer-events: none;
+}
+.text-me{
+    font-family: Roboto;
+    text-justify: inherit;
+}
+#tentang-kami{
+    background-image: url("https://assets.codepen.io/1462889/back-page.svg");
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+.title-bryan{
+    color: orangered;
+}
+.title-you-know{
+    margin-left: 8rem;
+}
+#tentang-kami1{
+    background-image:url("../img/8.png");
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: 50%;
+    background-attachment: fixed;
+}
