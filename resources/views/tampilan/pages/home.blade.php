@@ -74,7 +74,7 @@
                     <div class="col-12" style="text-align: justify;color: #777">
                         <span style="line-height: 2rem;font-size: 1.2rem">Kami terinspirasi untuk memberikan pelayanan jasa transportasi darat. Baik Jasa Rental Mobil dan Trip Wisata, maupun Travel Antar Jemput Paket dan Penumpang dengan armada yang relatif baru, bersih dan terawat serta didukung oleh sopir yang ramah, sopan dan berpengalaman sehingga perjalanan anda akan terasa nyaman dan menyenangkan.</span>
                     </div>
-                    <a href="https://wa.me/6281377939899" type="button" class="btn btn-danger" style="margin-top:3rem;margin-bottom: 3rem;border-radius: 20px;background: orangered">PESAN SEKARANG</a>
+                    <a href="https://wa.me/6281369356712" type="button" class="btn btn-danger" style="margin-top:3rem;margin-bottom: 3rem;border-radius: 20px;background: orangered">PESAN SEKARANG</a>
                 </div>
                 <div class="col-sm-6">
                     <img src="{{asset('img/9.png')}}" alt="Girl in a jacket" width="100%" height="100%">
@@ -86,16 +86,64 @@
             <span style="color: #777;font-size: 1.3rem">Bryan Travel melengkapi kebutuhan mobilisasi anda menggunakan Armada</span>
             <p style="color: #777;font-size: 1.3rem">Transportasi Darat via Tol Trans Sumatera</p>
         </div>
-
-        <div class="row">
-
+        <div class="container">
+            <div class="row  justify-content-center">
+                <div class="card card-cutome text-center" style="margin-bottom: 4rem">
+                    <img src="{{asset('img/10.png')}}" class="card-img-top img-custome" alt="..." style="">
+                    <div class="card-body">
+                        <h4 class="card-title title-style">Palembang - Lampung</h4>
+                        <h4 class="card-title title-style" style="margin-top: 2rem">Lampung - Palembang</h4>
+                        <h4 class="card-title title-style" style="margin-top: 2rem">RP. 250.000</h4>
+                        <a href="https://wa.me/6281369356712" type="button" class="btn btn-danger btn-bryan">PESAN SEKARANG</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+    <div class="container">
+        <div class="row" style="text-align: center;margin-top: 3rem">
+            <h2 class="title-bryan"> RUTE DAN HARGA BRYAN TRAVEL</h2>
+            <span style="color: #777;font-size: 1.3rem">Bryan Travel memiliki rute yang sangat lengkap dan memiliki harga yang terjangkau</span>
+            <p style="color: #777;font-size: 1.3rem">Transportasi Darat Yang Sangat Nyaman</p>
+        </div>
+        <div class="row" style="margin-top: 2rem">
+            <div class="col-sm-6">
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th scope="col">No</th>
+                        <th scope="col">Tujuan Awal</th>
+                        <th scope="col">Tujuan Akhir</th>
+                        <th scope="col">Handle</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td colspan="2">Larry the Bird</td>
+                        <td>@twitter</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-sm-6">
 
-
-
-
-    <a href="#" class="float float-button">
+            </div>
+        </div>
+    </div>
+    <a href="https://wa.me/6281369356712" class="float float-button">
         <img src="{{asset('img/logoWhatsapp.png')}}" class="d-block" alt="..." style="width: 2rem;height: 2rem; margin-top: 0.4rem; margin-left: 1rem">
         <p class="text-light" style="margin-top: -1.8rem; margin-left: 1.5rem">Hubungi Admin</p>
         <i class="fa fa-plus my-float"></i>

@@ -22,7 +22,7 @@
                     <a class="nav-link nav-content" href="#footer">Kontak Kami</a>
                 </li>
                 <li class="nav-item">
-                    <a href="https://wa.me/6281377939899" type="button" class="btn btn-danger" style="border-radius: 20px;background: orangered">PESAN SEKARANG</a>
+                    <a href="https://wa.me/6281369356712" type="button" class="btn btn-danger" style="border-radius: 20px;background: orangered">PESAN SEKARANG</a>
                 </li>
             </ul>
         </div>
