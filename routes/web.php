@@ -14,3 +14,5 @@ use App\Http\Controllers\HomeController;
 */
 
 Route::get('/', [HomeController::class, 'index'])->name('home.index');
+
+Route::get('/sitemap', [HomeController::class, 'sitemap'])->name('home.sitemap');

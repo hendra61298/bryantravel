@@ -68,7 +68,7 @@
     </div>
     <div  id="tentang-kami1">
         <div class="container">
-            <div class="row"  >
+            <div class="row" >
                 <div class="col-sm-6" style="margin-top: 3rem">
                     <h2 class="title-bryan" style="margin-bottom: 1rem">TENTANG BRYAN TRAVEL</h2>
                     <div class="col-12" style="text-align: justify;color: #777">
@@ -81,7 +81,7 @@
                 </div>
             </div>
         </div>
-        <div class="row" style="text-align: center;margin-top: 3rem">
+        <div class="row" style="text-align: center;margin-top: 3rem" id="rute-travel">
             <h2 class="title-bryan"> RUTE DAN HARGA BRYAN TRAVEL</h2>
             <span style="color: #777;font-size: 1.3rem">Bryan Travel melengkapi kebutuhan mobilisasi anda menggunakan Armada</span>
             <p style="color: #777;font-size: 1.3rem">Transportasi Darat via Tol Trans Sumatera</p>
@@ -102,51 +102,103 @@
     </div>
     <div class="container">
         <div class="row" style="text-align: center;margin-top: 3rem">
-            <h2 class="title-bryan"> RUTE DAN HARGA BRYAN TRAVEL</h2>
+            <h2 class="title-bryan"> RUTE YANG TERSEDIA DI BRYAN TRAVEL</h2>
             <span style="color: #777;font-size: 1.3rem">Bryan Travel memiliki rute yang sangat lengkap dan memiliki harga yang terjangkau</span>
             <p style="color: #777;font-size: 1.3rem">Transportasi Darat Yang Sangat Nyaman</p>
         </div>
         <div class="row" style="margin-top: 2rem">
             <div class="col-sm-6">
-                <table class="table table-striped">
-                    <thead>
-                    <tr>
-                        <th scope="col">No</th>
-                        <th scope="col">Tujuan Awal</th>
-                        <th scope="col">Tujuan Akhir</th>
-                        <th scope="col">Handle</th>
-                    </tr>
-                    </thead>
+                <table class="table table-orangered" style="margin-top: 2rem;margin-bottom: 1rem">
                     <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">3</th>
-                        <td colspan="2">Larry the Bird</td>
-                        <td>@twitter</td>
-                    </tr>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Palembang</td>
+                            <td><i class="fa fa-arrows-h fa-lg" aria-hidden="true"></i></td>
+                            <td>Lampung</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Lampung</td>
+                            <td><i class="fa fa-arrows-h fa-lg" aria-hidden="true"></i></td>
+                            <td>Jambi</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Lampung</td>
+                            <td><i class="fa fa-arrows-h fa-lg" aria-hidden="true"></i></td>
+                            <td>Jakarta</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>Jakarta</td>
+                            <td><i class="fa fa-arrows-h fa-lg" aria-hidden="true"></i></td>
+                            <td>Bandung</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">5</th>
+                            <td>Lampung</td>
+                            <td><i class="fa fa-arrows-h fa-lg" aria-hidden="true"></i></td>
+                            <td>Bandung</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">#</th>
+                            <td colspan="2">Tujuan Lainya Hubungi Admin</td>
+                            <td> <a href="https://wa.me/6281369356712" type="button" class="btn btn-danger" style="border-radius: 20px;background: orangered">Hubungi Admin</a></td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
             <div class="col-sm-6">
-
+                <img src="{{asset('img/11.png')}}" alt="Girl in a jacket" width="100%" height="100%">
             </div>
         </div>
     </div>
+    <div class="container" >
+        <div class="row" style="text-align: center;margin-top: 4rem">
+            <h2 class="title-bryan"> LAYANAN RENTAL MOBIL</h2>
+            <span style="color: #777;font-size: 1.3rem">Bryan Travel juga melayani jasa rental unit mobil dengan driver atau lepas kunci</span>
+            <p style="color: #777;font-size: 1.3rem">Untuk Wilayah Sumatera</p>
+        </div>
+        <div class="row  justify-content-center">
+            <div class="card card-cutome-1 text-center" style="margin-bottom: 4rem">
+                <img src="{{asset('img/10.png')}}" class="card-img-top img-custome" alt="..." >
+                <div class="card-body">
+                    <h4 class="card-title title-style">INOVA</h4>
+                    <p style="color: white;font-size: 1rem">Klik tombol pesan untuk informasi lebih lanjut mengenai penyewaan unit mobil</p>
+                    <a href="https://wa.me/6281369356712" type="button" class="btn btn-danger btn-bryan-1">PESAN SEKARANG</a>
+                </div>
+            </div>
+            <div class="card card-cutome-1 text-center" style="margin-bottom: 4rem">
+                <img src="{{asset('img/12.png')}}" class="card-img-top img-custome" alt="..." style="width: 100%;height: 100%" >
+                <div class="card-body">
+                    <h4 class="card-title title-style">AVANZA</h4>
+                    <p style="color: white;font-size: 1rem">Klik tombol pesan untuk informasi lebih lanjut mengenai penyewaan unit mobil</p>
+                    <a href="https://wa.me/6281369356712" type="button" class="btn btn-danger btn-bryan-1">PESAN SEKARANG</a>
+                </div>
+            </div>
+            <div class="card card-cutome-1 text-center" style="margin-bottom: 4rem">
+                <img src="{{asset('img/13.png')}}" class="card-img-top img-custome" alt="..." style="width: 100%;height: 100%">
+                <div class="card-body">
+                    <h4 class="card-title title-style">XENIA</h4>
+                    <p style="color: white;font-size: 1rem">Klik tombol pesan untuk informasi lebih lanjut mengenai penyewaan unit mobil</p>
+                    <a href="https://wa.me/6281369356712" type="button" class="btn btn-danger btn-bryan-1">PESAN SEKARANG</a>
+                </div>
+            </div>
+            <div class="card card-cutome-1 text-center" style="margin-bottom: 4rem">
+                <img src="{{asset('img/14.png')}}" class="card-img-top img-custome" alt="..." style="width: 100%;height: 100%">
+                <div class="card-body">
+                    <h4 class="card-title title-style">HIACE</h4>
+                    <p style="color: white;font-size: 1rem">Klik tombol pesan untuk informasi lebih lanjut mengenai penyewaan unit mobil</p>
+                    <a href="https://wa.me/6281369356712" type="button" class="btn btn-danger btn-bryan-1">PESAN SEKARANG</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <a href="https://wa.me/6281369356712" class="float float-button">
         <img src="{{asset('img/logoWhatsapp.png')}}" class="d-block" alt="..." style="width: 2rem;height: 2rem; margin-top: 0.4rem; margin-left: 1rem">
         <p class="text-light" style="margin-top: -1.8rem; margin-left: 1.5rem">Hubungi Admin</p>
-        <i class="fa fa-plus my-float"></i>
     </a>
 @endsection
 

@@ -3,14 +3,6 @@
         <div class="row justify-content-center">
             <div class="col-md-12 text-center">
                 <h2 class="footer-heading"><a href="#" class="logo">Bryan Travel</a></h2>
-                <p class="menu">
-                    <a href="#">Home</a>
-                    <a href="#">Agent</a>
-                    <a href="#">About</a>
-                    <a href="#">Listing</a>
-                    <a href="#">Blog</a>
-                    <a href="#">Contact</a>
-                </p>
             </div>
         </div>
         <div class="row mt-5">

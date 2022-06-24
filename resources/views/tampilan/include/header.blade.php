@@ -16,7 +16,7 @@
                     <a class="nav-link nav-content" href="#tentang-kami">Tentang Kami</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-content" href="#">Rute Travel</a>
+                    <a class="nav-link nav-content" href="#rute-travel">Rute Travel</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link nav-content" href="#footer">Kontak Kami</a>
