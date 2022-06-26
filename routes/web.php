@@ -14,5 +14,8 @@ use App\Http\Controllers\HomeController;
 */
 
 Route::get('/', [HomeController::class, 'index'])->name('home.index');
-
+Route::get('/travel-palembang-lampung', [HomeController::class, 'palembang'])->name('home.palembang');
+Route::get('/bryan-travel', [HomeController::class, 'profil'])->name('home.profil');
+Route::get('/travel-palembang-lampung-jakarta-bandung-bengkulu', [HomeController::class, 'rute'])->name('home.rute');
+Route::get('/rental-mobil-lampung', [HomeController::class, 'rental'])->name('home.rental');
 Route::get('/sitemap', [HomeController::class, 'sitemap'])->name('home.sitemap');

@@ -15,6 +15,23 @@ class HomeController extends Controller
     {
      return view('tampilan.pages.home');
     }
+
+    public function palembang()
+    {
+        return view('tampilan.pages.palembang');
+    }
+    public function profil()
+    {
+        return view('tampilan.pages.profil');
+    }
+    public function rute()
+    {
+        return view('tampilan.pages.rute');
+    }
+    public function rental()
+    {
+        return view('tampilan.pages.rental');
+    }
     public function sitemap()
     {
         return view('sitemap');

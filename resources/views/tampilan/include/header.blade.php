@@ -10,13 +10,16 @@
         <div class="collapse navbar-collapse nav-content" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link nav-content" href="#">Beranda</a>
+                    <a class="nav-link nav-content" href="{{route('home.index')}}">Beranda</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-content" href="#tentang-kami">Tentang Kami</a>
+                    <a class="nav-link nav-content" href="{{route('home.profil')}}">Tentang Kami</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-content" href="#rute-travel">Rute Travel</a>
+                    <a class="nav-link nav-content" href="{{route('home.rute')}}">Rute Travel</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-content" href="{{route('home.rental')}}">Rental Mobil</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link nav-content" href="#footer">Kontak Kami</a>

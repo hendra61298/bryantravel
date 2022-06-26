@@ -3,6 +3,10 @@
         <div class="row justify-content-center">
             <div class="col-md-12 text-center">
                 <h2 class="footer-heading"><a href="#" class="logo">Bryan Travel</a></h2>
+                <span class="text-center" style="color: white">
+                      <img src="{{asset('img/logoWhatsapp.png')}}"  alt="..." style="width: 2rem;height: 2rem; margin-right: 1rem">
+                         081369356712
+                </span>
             </div>
         </div>
         <div class="row mt-5">

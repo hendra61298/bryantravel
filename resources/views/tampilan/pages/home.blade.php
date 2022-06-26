@@ -34,7 +34,7 @@
     </div>
     <div  id="tentang-kami" class="container" style="margin-bottom: 2rem; min-height: 40rem">
         <div class="row text-center" style="margin-top: 3rem; margin-bottom: 3rem">
-            <p   class="text-bryan">Bryan Travel Pilihan Terbaik!!!</p>
+            <h1  class="text-bryan">Bryan Travel Pilihan Terbaik!!!</h1>
         </div>
         <div class="row" style="text-align: -webkit-center;">
             <div class="col-lg-4" style="margin-top: 1rem">
@@ -74,7 +74,7 @@
                     <div class="col-12" style="text-align: justify;color: #777">
                         <span style="line-height: 2rem;font-size: 1.2rem">Kami terinspirasi untuk memberikan pelayanan jasa transportasi darat. Baik Jasa Rental Mobil dan Trip Wisata, maupun Travel Antar Jemput Paket dan Penumpang dengan armada yang relatif baru, bersih dan terawat serta didukung oleh sopir yang ramah, sopan dan berpengalaman sehingga perjalanan anda akan terasa nyaman dan menyenangkan.</span>
                     </div>
-                    <a href="https://wa.me/6281369356712" type="button" class="btn btn-danger" style="margin-top:3rem;margin-bottom: 3rem;border-radius: 20px;background: orangered">PESAN SEKARANG</a>
+                    <a href="https://wa.me/6281369356712" type="button" class="btn btn-danger" style="margin-top:3rem;margin-bottom: 3rem;border-radius: 20px;background: orangered">Hubungi Bryan Travel</a>
                 </div>
                 <div class="col-sm-6">
                     <img src="{{asset('img/9.png')}}" alt="Girl in a jacket" width="100%" height="100%">
@@ -93,7 +93,7 @@
                     <div class="card-body">
                         <h4 class="card-title title-style">Palembang - Lampung</h4>
                         <h4 class="card-title title-style" style="margin-top: 2rem">Lampung - Palembang</h4>
-                        <h4 class="card-title title-style" style="margin-top: 2rem">RP. 250.000</h4>
+                        <a href="{{route('home.palembang')}}" type="button" class="btn btn-danger btn-bryan">DETAIL</a>
                         <a href="https://wa.me/6281369356712" type="button" class="btn btn-danger btn-bryan">PESAN SEKARANG</a>
                     </div>
                 </div>
@@ -153,7 +153,7 @@
             </div>
         </div>
     </div>
-    <div class="container" >
+    <div class="container" id="rental-mobil" >
         <div class="row" style="text-align: center;margin-top: 4rem">
             <h2 class="title-bryan"> LAYANAN RENTAL MOBIL</h2>
             <span style="color: #777;font-size: 1.3rem">Bryan Travel juga melayani jasa rental unit mobil dengan driver atau lepas kunci</span>
